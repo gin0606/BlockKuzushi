@@ -349,6 +349,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1671686026}
   - 212: {fileID: 1671686025}
+  - 114: {fileID: 1671686028}
+  - 58: {fileID: 1671686027}
   m_Layer: 0
   m_Name: bird
   m_TagString: Untagged
@@ -390,3 +392,25 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!58 &1671686027
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671686024}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .219999999
+  m_Center: {x: 0, y: 0}
+--- !u!114 &1671686028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671686024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11879c2a40ec34814a99e9909e5c26f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
