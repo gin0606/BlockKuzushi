@@ -164,6 +164,7 @@ GameObject:
   - 4: {fileID: 756740707}
   - 212: {fileID: 756740706}
   - 61: {fileID: 756740708}
+  - 50: {fileID: 756740709}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
@@ -216,6 +217,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!50 &756740709
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 756740705}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &793736167
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +242,7 @@ GameObject:
   - 4: {fileID: 793736169}
   - 212: {fileID: 793736168}
   - 61: {fileID: 793736170}
+  - 50: {fileID: 793736171}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
@@ -278,6 +295,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!50 &793736171
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793736167}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1326997850
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,6 +320,7 @@ GameObject:
   - 4: {fileID: 1326997852}
   - 212: {fileID: 1326997851}
   - 61: {fileID: 1326997853}
+  - 50: {fileID: 1326997854}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
@@ -340,6 +373,21 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!50 &1326997854
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1326997850}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
 --- !u!1 &1671686024
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +399,7 @@ GameObject:
   - 212: {fileID: 1671686025}
   - 114: {fileID: 1671686028}
   - 58: {fileID: 1671686027}
+  - 50: {fileID: 1671686029}
   m_Layer: 0
   m_Name: bird
   m_TagString: Untagged
@@ -414,3 +463,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11879c2a40ec34814a99e9909e5c26f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1671686029
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1671686024}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 0
+  m_FixedAngle: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
