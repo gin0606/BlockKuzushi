@@ -448,7 +448,7 @@ CircleCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1671686024}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7d7551291ee5641e8b189c561ffedd51, type: 2}
   m_IsTrigger: 0
   m_Radius: .219999999
   m_Center: {x: 0, y: 0}
